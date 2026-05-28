@@ -15,9 +15,9 @@ export default function ProductCard({ product }: { product: Product }) {
           />
       </div>
       <div className="flex flex-col gap-2 px-4">
-        <h2 className="text-xl font-bold">{product.title}</h2>
+        <h2 className="text-xl text-gray-900 font-bold">{product.title}</h2>
         <p className="text-gray-600 text-sm line-clamp-2">{product.description}</p>
-        <span className="text-lg font-semibold">
+        <span className="text-lg text-gray-900 font-semibold">
           Oferta actual: <span className="text-green-600">${product.current_price.toFixed(2)}</span>
         </span>
         <Link 

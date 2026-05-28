@@ -84,7 +84,7 @@ export default function Home()
     <div className="flex flex-col flex-1 items-center bg-zinc-50 font-sans gap-30 md:gap-0">
       <div className="w-full flex flex-col p-8 lg:h-[65vh] relative bg-cover bg-center justify-center lg:px-14" 
         style={{ backgroundImage: "url('/bruno-kelzer-LvySG1hvuzI-unsplash.jpg')" }}>
-          <div className="absolute inset-0 bg-black/30"></div>
+          <div className="absolute inset-0 bg-black/50"></div>
           <div className="relative z-10">
             <p className="font-bold text-4xl text-gray-100 md:text-6xl max-w-3xl py-6">O mercado mais seguro para licitar, vender e ganhar</p> 
             <p className="text-2xl text-gray-200 md:text-3xl max-w-2xl">
@@ -101,8 +101,8 @@ export default function Home()
           </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center gap-10 lg:h-[65vh]">
-        <h1 className="text-3xl text-gray-700 font-bold">Como funciona o BiDIT?</h1>
+      <div className="flex flex-col px-6 items-center justify-center gap-10 lg:h-[65vh]">
+        <h1 className="text-3xl text-gray-700 font-bold px-2">Como funciona o BiDIT?</h1>
         <div className="flex flex-col md:flex-row gap-10 mt-6">
           <div className="flex flex-col gap-4 items-center rounded-md bg-white p-6 shadow-md">
             <UserPen size={60} color="#354153" />
@@ -128,8 +128,8 @@ export default function Home()
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center gap-10 lg:h-[60vh]">
-        <h1 className="text-3xl text-gray-700 font-bold text-center">Porque escolher o nosso mercado?</h1>
+      <div className="flex flex-col px-6 items-center justify-center gap-10 lg:h-[60vh]">
+        <h1 className="text-3xl text-gray-700 font-bold text-center px-2">Porque escolher o nosso mercado?</h1>
         <div className="flex flex-col md:flex-row gap-10 mt-6">
           <div className="flex flex-col gap-4 items-center rounded-md bg-white p-6 shadow-md">
             <ShieldCheck size={60} color="#354153"/>
