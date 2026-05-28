@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="flex px-3 py-4 justify-between items-center md:px-14">
+      <header className="flex px-3 py-4 justify-between items-center md:px-14 bg-[#efefef]">
         <h1 className="text-4xl text-gray-800 font-bold md:text-6xl">
           BiD<span className="text-orange-800">IT</span>
         </h1>

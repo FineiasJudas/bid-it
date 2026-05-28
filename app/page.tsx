@@ -81,7 +81,7 @@ const items: Product[] = [
 export default function Home()
 {
   return (
-    <div className="flex flex-col flex-1 items-center bg-zinc-50 font-sans gap-40 md:gap-0">
+    <div className="flex flex-col flex-1 items-center bg-zinc-50 font-sans gap-30 md:gap-0">
       <div className="w-full flex flex-col p-8 lg:h-[65vh] relative bg-cover bg-center justify-center lg:px-14" 
         style={{ backgroundImage: "url('/bruno-kelzer-LvySG1hvuzI-unsplash.jpg')" }}>
           <div className="absolute inset-0 bg-black/30"></div>
@@ -105,22 +105,22 @@ export default function Home()
         <h1 className="text-3xl text-gray-700 font-bold">Como funciona o BiDIT?</h1>
         <div className="flex flex-col md:flex-row gap-10 mt-6">
           <div className="flex flex-col gap-4 items-center rounded-md bg-white p-6 shadow-md">
-            <UserPen size={60}/>
-            <h2 className="text-xl font-bold">Cadastro</h2>
+            <UserPen size={60} color="#354153" />
+            <h2 className="text-xl font-bold text-[#354153]">Cadastro</h2>
             <p className="text-gray-600 text-center max-w-sm">
               Crie sua conta gratuitamente e tenha acesso a um mundo de oportunidades para comprar e vender produtos em leilões emocionantes.
             </p>
           </div>
           <div className="flex flex-col gap-4 items-center rounded-md bg-white p-6 shadow-md">
-            <BadgeDollarSign size={60}/>
-            <h2 className="text-xl font-bold">Licitação</h2>
+            <BadgeDollarSign size={60} color="#354153" />
+            <h2 className="text-xl font-bold text-[#354153]">Licitação</h2>
             <p className="text-gray-600 text-center max-w-sm">
               Participe de leilões em tempo real, faça lances competitivos e concorra para ganhar produtos incríveis a preços acessíveis.
             </p>
           </div>
           <div className="flex flex-col gap-4 items-center rounded-md bg-white p-6 shadow-md">
-            <HandCoins size={60}/>
-            <h2 className="text-xl font-bold">Venda</h2>
+            <HandCoins size={60} color="#354153" />
+            <h2 className="text-xl font-bold text-[#354153]">Venda</h2>
             <p className="text-gray-600 text-center max-w-sm">
               Anuncie seus produtos para venda em leilões emocionantes e alcance uma ampla audiência de compradores interessados.
             </p>
@@ -132,15 +132,15 @@ export default function Home()
         <h1 className="text-3xl text-gray-700 font-bold text-center">Porque escolher o nosso mercado?</h1>
         <div className="flex flex-col md:flex-row gap-10 mt-6">
           <div className="flex flex-col gap-4 items-center rounded-md bg-white p-6 shadow-md">
-            <ShieldCheck size={60} />
-            <h2 className="text-xl font-bold">Segurança</h2>
+            <ShieldCheck size={60} color="#354153"/>
+            <h2 className="text-xl font-bold text-[#354153]">Segurança</h2>
             <p className="text-gray-600 text-center max-w-sm">
               Garantimos a segurança de todas as transações e dados dos nossos usuários, proporcionando um ambiente confiável para comprar e vender.
             </p>
           </div>
           <div className="flex flex-col gap-4 items-center rounded-md bg-white p-6 shadow-md">
-            <Scale size={60} /> 
-            <h2 className="text-xl font-bold">Transparência</h2>
+            <Scale size={60} color="#354153" /> 
+            <h2 className="text-xl font-bold text-[#354153]">Transparência</h2>
             <p className="text-gray-600 text-center max-w-sm">
               Oferecemos total transparência em todas as nossas operações, garantindo que os usuários tenham acesso a informações claras e precisas sobre os produtos e leilões.
             </p>
