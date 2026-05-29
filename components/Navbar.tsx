@@ -43,7 +43,7 @@ export default function Navbar() {
             <Link
               key={item.name}
               href={item.path}
-              className="text-white text-lg px-8 py-5 hover:bg-amber-800"
+              className="text-white text-lg lg:px-8 py-5 md:p-4 hover:bg-amber-800"
             >
               {item.placeholder}
             </Link>
@@ -53,10 +53,10 @@ export default function Navbar() {
           <input
             type="search"
             placeholder="Search a product"
-            className="bg-transparent p-3 text-gray-400 placeholder:text-gray-500 focus:outline-none"
+            className="flex bg-transparent p-3 text-gray-400 placeholder:text-gray-500 focus:outline-none md:hidden lg:flex"
           />
           <Search />
-          <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden">
+          <button onClick={() => setMenuOpen(!menuOpen)} className="flex md:hidden">
             {menuOpen ? <X className="text-gray-400" /> : <Menu className="text-gray-400" />}
           </button>
         </div>
@@ -74,9 +74,9 @@ export default function Navbar() {
               {item.placeholder}
             </Link>
           ))}
-          <div className="flex gap-4 px-8 py-4">
-            <Link href="/login" className="text-gray-300 font-bold hover:text-white">Login</Link>
-            <Link href="/signup" className="text-gray-300 font-bold hover:text-white">Sign Up</Link>
+          <div className="flex flex-col gap-4">
+            <Link href="/login" className="text-gray-300 font-bold  hover:bg-amber-800 px-8 py-4">Login</Link>
+            <Link href="/signup" className="text-gray-300 font-bold  hover:bg-amber-800 px-8 py-4">Sign Up</Link>
           </div>
         </div>
       )}

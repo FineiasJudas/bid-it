@@ -81,8 +81,8 @@ const items: Product[] = [
 export default function Home()
 {
   return (
-    <div className="flex flex-col flex-1 items-center bg-zinc-50 font-sans gap-30 md:gap-0">
-      <div className="w-full flex flex-col p-8 lg:h-[65vh] relative bg-cover bg-center justify-center lg:px-14" 
+    <div className="flex flex-col flex-1 items-center bg-zinc-50 font-sans gap-30">
+      <div className="w-full flex flex-col p-8 lg:h-[60vh] relative bg-cover bg-center justify-center lg:px-14" 
         style={{ backgroundImage: "url('/bruno-kelzer-LvySG1hvuzI-unsplash.jpg')" }}>
           <div className="absolute inset-0 bg-black/50"></div>
           <div className="relative z-10">
@@ -101,9 +101,9 @@ export default function Home()
           </div>
       </div>
 
-      <div className="flex flex-col px-6 items-center justify-center gap-10 lg:h-[65vh]">
-        <h1 className="text-3xl text-gray-700 font-bold px-2">Como funciona o BiDIT?</h1>
-        <div className="flex flex-col md:flex-row gap-10 mt-6">
+      <div className="flex flex-col px-6 items-center justify-center gap-10 lg:h-[60h]">
+        <h1 className="text-3xl text-gray-700 font-bold px-2 text-center">Como funciona o BiDIT?</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-6">
           <div className="flex flex-col gap-4 items-center rounded-md bg-white p-6 shadow-md">
             <UserPen size={60} color="#354153" />
             <h2 className="text-xl font-bold text-[#354153]">Cadastro</h2>
@@ -118,7 +118,7 @@ export default function Home()
               Participe de leilões em tempo real, faça lances competitivos e concorra para ganhar produtos incríveis a preços acessíveis.
             </p>
           </div>
-          <div className="flex flex-col gap-4 items-center rounded-md bg-white p-6 shadow-md">
+          <div className="flex flex-col gap-4 items-center rounded-md bg-white p-6 shadow-md md:col-span-2 md:w-1/2 md:mx-auto lg:col-span-1 lg:w-full lg:mx-0">
             <HandCoins size={60} color="#354153" />
             <h2 className="text-xl font-bold text-[#354153]">Venda</h2>
             <p className="text-gray-600 text-center max-w-sm">
@@ -128,9 +128,9 @@ export default function Home()
         </div>
       </div>
 
-      <div className="flex flex-col px-6 items-center justify-center gap-10 lg:h-[60vh]">
+      <div className="flex flex-col px-6 items-center justify-center gap-10 lg:h-[50vh]">
         <h1 className="text-3xl text-gray-700 font-bold text-center px-2">Porque escolher o nosso mercado?</h1>
-        <div className="flex flex-col md:flex-row gap-10 mt-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-6 md:justify-items-center">
           <div className="flex flex-col gap-4 items-center rounded-md bg-white p-6 shadow-md">
             <ShieldCheck size={60} color="#354153"/>
             <h2 className="text-xl font-bold text-[#354153]">Segurança</h2>
@@ -148,7 +148,7 @@ export default function Home()
         </div>
       </div>
 
-      <div className="w-full px-6 lg:h-[90vh] max-w-7xl lg:mt-40">
+      <div className="w-full px-6 lg:h-[80vh] max-w-7xl">
           <h1 className="text-3xl text-gray-700 font-bold text-center mb-20">Vê alguns produtos ativos</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
             {

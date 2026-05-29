@@ -7,7 +7,7 @@ export default function ProductCard({ product }: { product: Product }) {
     <div className="w-full h-64 flex flex-row bg-white rounded-lg shadow-md p-4">
       <div className="flex w-[40%] items-center justify-center rounded-md">
           <Image 
-            src={"/6011.jpg"} 
+            src={"/6011.jpg"}
             alt={product.title}
             width={150}
             height={150}
