@@ -91,10 +91,10 @@ export default function Home()
               Participe em leilões em tempo real com toda a transparência, segurança e lances a começar do zero.
             </p>
             <div className="gap-4 flex flex-row mt-10">
-              <Link href="/leiloes" className="bg-orange-800 hover:bg-orange-700 text-white font-bold px-4 py-3 rounded">
+              <Link href="/" className="bg-orange-800 hover:bg-orange-700 text-white font-bold px-4 py-3 rounded">
                 Ver leilões
               </Link>
-              <Link href="/vender" className="bg-gray-500 hover:bg-gray-800 text-white font-bold px-4 py-3 rounded">
+              <Link href="/" className="bg-gray-500 hover:bg-gray-800 text-white font-bold px-4 py-3 rounded">
                 Vender produto
               </Link>
             </div>

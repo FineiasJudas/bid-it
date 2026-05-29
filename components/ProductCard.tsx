@@ -7,7 +7,7 @@ export default function ProductCard({ product }: { product: Product }) {
     <div className="w-full h-64 flex flex-row bg-white rounded-lg shadow-md p-4">
       <div className="flex w-[40%] items-center justify-center rounded-md">
           <Image 
-            src={"/6011.jpg"}
+            src={"/6011.jpg"} 
             alt={product.title}
             width={150}
             height={150}
@@ -21,7 +21,7 @@ export default function ProductCard({ product }: { product: Product }) {
           Oferta actual: <span className="text-green-600">${product.current_price.toFixed(2)}</span>
         </span>
         <Link 
-          href={`/products/1`}
+          href={'products/1'}
           className="w-fit bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-600 mt-auto text-sm"
         >
           Ver detalhes
