@@ -19,7 +19,9 @@ export default function Navbar() {
     <>
       <header className="flex px-3 py-4 justify-between items-center md:px-14 bg-[#efefef]">
         <h1 className="text-4xl text-gray-800 font-bold md:text-6xl">
+          <Link href={'/'}>
           BiD<span className="text-orange-800">IT</span>
+          </Link>
         </h1>
         <div className="flex flex-row gap-4 items-center">
           <div className="hidden md:flex items-center">
