@@ -1,6 +1,6 @@
-import ProductCard from "@/components/ProductCard";
-import { Product } from "@/lib/types";
 import Link from "next/link";
+import { Product } from "@/lib/types";
+import ProductCard from "@/components/ProductCard";
 import { BadgeDollarSign, HandCoins, Scale, ShieldCheck, UserPen } from "lucide-react";
 
 const items: Product[] = [
@@ -81,8 +81,8 @@ const items: Product[] = [
 export default function Home()
 {
   return (
-    <div className="flex flex-col flex-1 items-center bg-zinc-50 font-sans gap-30">
-      <div className="w-full flex flex-col p-8 lg:h-[60vh] relative bg-cover bg-center justify-center lg:px-14" 
+    <div className="flex flex-col flex-1 items-center bg-zinc-50 font-sans gap-40">
+      <div className="w-full flex flex-col p-8 relative bg-cover bg-center justify-center lg:px-14" 
         style={{ backgroundImage: "url('/bruno-kelzer-LvySG1hvuzI-unsplash.jpg')" }}>
           <div className="absolute inset-0 bg-black/50"></div>
           <div className="relative z-10">
@@ -128,7 +128,7 @@ export default function Home()
         </div>
       </div>
 
-      <div className="flex flex-col px-6 items-center justify-center gap-10 lg:h-[50vh]">
+      <div className="flex flex-col px-6 items-center justify-center gap-10">
         <h1 className="text-3xl text-gray-700 font-bold text-center px-2">Porque escolher o nosso mercado?</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-6 md:justify-items-center">
           <div className="flex flex-col gap-4 items-center rounded-md bg-white p-6 shadow-md">
@@ -148,7 +148,7 @@ export default function Home()
         </div>
       </div>
 
-      <div className="w-full px-6 lg:h-[80vh] max-w-7xl">
+      <div className="w-full px-6 max-w-7xl">
           <h1 className="text-3xl text-gray-700 font-bold text-center mb-20">Vê alguns produtos ativos</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
             {
