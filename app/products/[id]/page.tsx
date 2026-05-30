@@ -15,7 +15,7 @@ export default function ProductPage({ params }: { params: { id: string } })
   }
 
   return (
-    <div className="flex flex-col items-center px-14 py-8 mt-10 mb-20 bg-[#efefef]">
+    <div className="flex flex-col items-center px-14 py-8 bg-[#efefef]">
         <h1 className="text-3xl text-gray-700 font-bold mb-8">Produto ativo</h1>
       <div className="flex flex-col lg:flex-row gap-10">
       <div className="w-80 md:w-100 flex flex-col bg-white rounded-lg shadow-md p-4 gap-8">
