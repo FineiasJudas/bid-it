@@ -39,7 +39,7 @@ export default function ProductPage({ params }: { params: { id: string } })
           value={bidAmount}
           onChange={(e) => setBidAmount(e.target.value)}
           placeholder="Coloque um valor"
-          className="bg-gray-100 px-4 py-2 rounded-lg border border-gray-300 mb-3"
+          className="bg-gray-100 px-4 py-2 rounded-lg border border-gray-300 mb-3 placeholder:text-gray-600"
         />
         <button onClick={() => console.log("Bid:", bidAmount)} className="bg-gray-800 rounded text-white p-2 mb-3">
           Fazer Bid
@@ -52,7 +52,7 @@ export default function ProductPage({ params }: { params: { id: string } })
              <textarea
                 value={comment}
                 onChange={(e) => setComment(e.target.value)}
-                className="border-1 border-gray-300 rounded-lg px-3 py-3 bg-gray-100" 
+                className="border-1 border-gray-300 rounded-lg px-3 py-3 bg-gray-100 placeholder:text-gray-600" 
                 placeholder="Dê um feedbeak aqui">
              </textarea>
              <input type="submit" value={"Enviar"} className="px-2 py-2 rounded bg-gray-800 text-white"/>
