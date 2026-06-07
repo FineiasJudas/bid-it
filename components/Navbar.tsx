@@ -25,10 +25,10 @@ export default function Navbar() {
         </h1>
         <div className="flex flex-row gap-4 items-center">
           <div className="hidden md:flex items-center">
-            <Link href="/" className="text-gray-600 hover:text-gray-800 px-4 py-2 rounded-md font-bold">
+            <Link href="/login" className="text-gray-600 hover:text-gray-800 px-4 py-2 rounded-md font-bold">
               Login
             </Link>
-            <Link href="/" className="text-gray-600 hover:text-gray-800 px-4 py-2 rounded-md font-bold">
+            <Link href="/register" className="text-gray-600 hover:text-gray-800 px-4 py-2 rounded-md font-bold">
               Sign Up
             </Link>
           </div>
@@ -77,8 +77,8 @@ export default function Navbar() {
             </Link>
           ))}
           <div className="flex flex-col">
-            <Link href="/" className="text-gray-300 font-bold  hover:bg-amber-800 px-8 py-4">Login</Link>
-            <Link href="/" className="text-gray-300 font-bold  hover:bg-amber-800 px-8 py-4">Sign Up</Link>
+            <Link href="/login" className="text-gray-300 font-bold  hover:bg-amber-800 px-8 py-4">Login</Link>
+            <Link href="/register" className="text-gray-300 font-bold  hover:bg-amber-800 px-8 py-4">Sign Up</Link>
           </div>
         </div>
       )}

@@ -81,7 +81,7 @@ const items: Product[] = [
 export default function Home()
 {
   return (
-    <div className="flex flex-col flex-1 items-center bg-zinc-50 font-sans gap-40">
+    <div className="flex flex-col flex-1 items-center bg-zinc-50 font-sans gap-40 mb-20">
       <div className="w-full flex flex-col p-8 relative bg-cover bg-center justify-center lg:px-14" 
         style={{ backgroundImage: "url('/bruno-kelzer-LvySG1hvuzI-unsplash.jpg')" }}>
           <div className="absolute inset-0 bg-black/50"></div>
