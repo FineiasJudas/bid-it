@@ -4,7 +4,7 @@ import CommentSection from "./_components/CommentSection";
 
 export default function ProductPage({ params }: { params: { id: string } }) {
   return (
-    <div className="flex flex-col items-center px-14 py-14 bg-[#efefef] mb-20">
+    <div className="flex flex-col items-center px-14 py-14 bg-[#efefef] pb-20">
       <h1 className="text-3xl text-gray-700 font-bold mb-8">Produto ativo</h1>
       <div className="flex flex-col lg:flex-row gap-10">
 
