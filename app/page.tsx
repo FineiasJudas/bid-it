@@ -5,6 +5,7 @@ import { BadgeDollarSign, HandCoins, Scale, ShieldCheck, UserPen } from "lucide-
 
 const items: Product[] = [
   {
+  	id: 1,
     title: "Produto 1",
     description: "Descrição do produto 1",
     current_price: 100.00,
@@ -17,6 +18,7 @@ const items: Product[] = [
     winner: { id: "2", username: "Maria Santos", email: "maria@example.com", watchlist: [] }
   },
   {
+  	id: 2,
     title: "Produto 2",
     description: "Descrição do produto 2",
     current_price: 100.00,
@@ -29,6 +31,7 @@ const items: Product[] = [
     winner: null
   },
   {
+  	id: 3,
     title: "Produto 3",
     description: "Descrição do produto 3",
     current_price: 10.00,
@@ -41,6 +44,7 @@ const items: Product[] = [
     winner: { id: "1", username: "João Silva", email: "joao@example.com", watchlist: [] }
   },
   {
+  	id: 4,
     title: "Produto 4",
     description: "Descrição do produto 4",
     current_price: 70.00,
@@ -53,6 +57,7 @@ const items: Product[] = [
     winner: null
   },
   {
+  	id: 5,
     title: "Produto 5",
     description: "Descrição do produto 5",
     current_price: 300.00,
@@ -65,6 +70,7 @@ const items: Product[] = [
     winner: null
   },
   {
+  	id: 6,
     title: "Produto 6",
     description: "Descrição do produto 6",
     current_price: 450.00,
